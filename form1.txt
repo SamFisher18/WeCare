@@ -1,0 +1,82 @@
+<html>
+   <head>
+      <title>form1</title>
+   </head>
+   <body style="background-color:beige">
+   <form>
+      <table border="10" cellspacing="5"cellpadding="3"width="100%"bordercolor="darkslateblue"bgcolor="steelblue"column-rule-color="beige">
+      <thead>
+      <td> 
+      <p style="color:white"><font size="5">Personal detail</p></td>
+      </thead>
+      <table border="2"cellspacing="5"cellpadding="5"style="width:100%"border color="darkslateblue" bgcolor="beige">
+      <tr>
+      <td>
+      Applicant name<font color="red">*<td colspan="100%"><input type="text" style="width:100%"></td>
+      <tr>
+      <td>
+      Applying for post<font color="red">*<td colspan="100%"><input type="text"style="width:100%">
+      </td>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      Father's/Husband's Name<font color="red">*<td colspan="100%"><input type="text"style="width:100%">  </td>
+      </td> 
+      </tr>
+      <tr>
+      <td>     
+      Mother's Name<font color="red">*<td colspan="100%"><input type="text" style="width:100%"></td>
+      </td>
+      </tr>
+      <tr>
+      <td> Category<font color="red">*
+      <td><select id="Category"name="Catogory"size="1%"style="width:100%"><ol>
+      <option value="  ">  </option>
+      <option value="General">General</option>
+      <option value="OBC">OBC</option>
+      <option value="SC/ST">SC/ST</option></ol></select></td></td>
+      <td>
+       Nationality<font color="red">*
+      <td colspan="100%"><select id="Nationality"name="Nationality"size="1%"style="width:99%">
+      <ol><option value="  ">  </option>
+      <option value="Indian">Indian</option>
+      <option value="Foreigner">Foreigner</option>
+      <option value="Refugee">Refugee</option></ol></select>
+      </td>
+      </td>
+      </tr>
+      <tr>
+      <td>
+       Gender<font color="red">*   
+      <td> 
+      <select id="Gender"name="Gender"size="1%"style="width:100%">
+      <option value="  ">  </option>
+      <option value="Female">Female</option>
+      <option value="Male">Male</option>
+      </td>
+      </td>
+      <td>
+      Date of Birth<font color="red">*<td colspan="100%"><input type="text"style="width:45%">(DD/MM/YYYY)  Age as on 01/07/2019  --(yyyy-mm-dd)</td>
+      </td>  
+      </tr>
+      <tr>
+      <td>
+      Are You Physically Handicapped<font color="red">*
+      <td colspan="100%"><select id="Are You Physically Handicapped"name="Are You Physically Handicapped"size="1%"style="width:100%">
+      <option value="  ">  </option>
+      <option value="yes">yes</option>
+      <option value="no">no</option>
+      </td>
+      </td>
+      </tr> 
+      </select>
+      <td colspan="100%"><center><font size="5"><input type="submit">
+      </center>
+      </td>
+    </center>
+    </body>
+</html> 
+
+
+	
